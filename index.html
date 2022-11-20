@@ -52,7 +52,7 @@
     <section class="jumbotron text-center">
       <img src="img/Juara.jpeg" alt="juaralukis" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Prezchyla</h1>
-      <p class="lead">My Portfolio | Prezchyla</p>
+      <p class="lead"></p>
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -296,10 +296,21 @@
       });
 
       AOS.init();
-        
+      
     </script>
 
     <!-- #enAoS -->
+    <!-- #GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/TextPlugin.min.js"></script>
+
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".lead", { duration: 1.5, delay: 1.5, text: "SMP Muhammadiyah 11 Jakarta Pusat" });
+      gsap.from(".jumbotron img", { duration: 4, rotateY: 360, opacity: 0 });
+      gsap.from(".navbar", { duration: 2, y: "-100%", opacity: 0, ease: "bounce" });
+      gsap.from(".display-4", { duration: 1, x: -50, opacity: 0, delay: 0.5 });
+    </script>
 
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbwJRtsmJ4af8Vmh43GwSoaOvG9y6Vr2vVjhxUBpQMLDZtrYOQXYsRwNx_viriC5G1eS/exec";
