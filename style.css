@@ -46,7 +46,7 @@ section {
 }
 
 .keyboard-box::after {
-  content: "KEYBOARD";
+  content: "M I N I O N S";
   position: absolute;
   color: #fff;
   font-size: 4em;
