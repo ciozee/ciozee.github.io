@@ -23,7 +23,7 @@ section {
 .keyboard-box {
   position: relative;
   background-color: #0c6efd;
-  border-radius: 10px;
+  border-radius: 20px;
   height: 500px;
   transform-style: preserve-3d;
 }
@@ -49,10 +49,10 @@ section {
   content: "M I N I O N S";
   position: absolute;
   color: #fff;
-  font-size: 4em;
+  font-size: 1.5em;
   font-weight: bold;
   font-style: italic;
-  top: 350px;
+  top: 450px;
   left: 50%;
   transform: translate(-50%, 0);
   opacity: 0;
